@@ -13,7 +13,7 @@ export default () => `
               Fast return to your daily activities
 
             </p>
-            <a><img src = "https://www.azuravascularcare.com//assets/AV-fistula-1-667x1024.jpg"></a>
+            <img class="pictures" src="https://www.azuravascularcare.com//assets/AV-fistula-1-667x1024.jpg">
 
           </main>
         `;
