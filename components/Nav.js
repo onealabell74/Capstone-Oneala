@@ -1,35 +1,26 @@
 export default () => `
-<nav class="hidden--mobile">
-<li><a href="/">Home</a></li>
- <li><a href="/about">About</a></li>
-  <li><a href="/contact">Contact</a></li>
-  <li><a href="#">Types of Dialysis Treatments</a>
-   <ul>
-     <li><a href="./CenterAndHome.html"> Center/Home</a></li>
-     <li><a href="./Peritoneal.html">Peritoneal Dialysis</a></li>
-     <li><a href="./ContinousRenalReplacement.html">Continuous Renal Replacement</a></li>
-   </ul>
-  </li>
-
-    <li><a href="#">Types of Dialysis Access</a>
-
-   <ul>
-      <li><a href="./CentralVenousCatheter.html">Central Venous Catheter(CVC)</a></li>
-      <li><a href="./ArteriovenousFistula.html">Arteriovenous Fistula(AVF)</a></li>
-      <li><a href="./ArteriovenousGraft.html">Arteriovenous Graft(AVG)</a></li>
-      <li><a href="./PeritonealDialysisCatheter.html">Peritoneal Dialysis Catheter(PD)</a> </li>
-     </ul>
-   </li>
-
-<li><a href="#">Care Team</a>
- <ul>
-   <li><a href="/Nephrologist.html">Nephrologist</a></li>
-   <li><a href="./RegisterNurse.html">Register Nurse</a></li>
-   <li><a href="./PatientCareTechnician.html">Patient Care Technician</a></li>
-   <li><a href="./Dietitian.html">Dietitian</a></li>
-   <li><a href="./SocialWorker.html">Social Worker</a></li>
- </ul>
-</li>
+<nav id="navbar">
+    <i class="fas fa-bars"></i>
+      <ul class="hidden--mobilenav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="./About.html">About</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Types of Dialysis Treatments</a>
+          <div class="dropdown-content">
+            <a href="./CenterAndHome.html"> Center/Home</a>
+            <a href="./Peritoneal.html">Peritoneal Dialysis</a>
+            <a href="./ContinousRenalReplacement.html">Continuous Renal Replacement</a>
+          </div>
+        </li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Types of Dialysis Access</a>
+          <div class="dropdown-content">
+            <a href="./CentralVenousCatheter.html">Central Venous Catheter(CVC)</a>
+            <a href="./avf.html">Arteriovenous Fistula(AVF)</a>
+            <a href="./ArteriovenousGraft.html">Arteriovenous Graft(AVG)</a>
+            <a href="./PeritonealDialysisCatheter.html">Peritoneal Dialysis Catheter(PD)</a>
+          </div>
+        </li>
+        <li><a href="./Careteam.html">Care Team</a></li>
+      </ul>
 </nav>
-
 `;

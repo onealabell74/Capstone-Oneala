@@ -8,8 +8,8 @@ export default () => `
     having a part time job. Think of at such. I hope this will help you
     decide what is best for you. Cause this is not a one size fits all.
 </p>
-</main>
+
 <img src="https://thumbs.dreamstime.com/b/superhero-doctor-nurse-medical-masks-hero-cape-staff-protective-suits-188518924.jpg">
 
-
+</main>
 `;
