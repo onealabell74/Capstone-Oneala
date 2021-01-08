@@ -41,7 +41,7 @@ header > h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:  rgb(233, 220, 153);
+  background-color:  rgb(233, 223, 177);
 }
 
 #navbar li {
@@ -94,7 +94,7 @@ header > h1 {
 footer {
   width: 100%;
   min-height: 100px;
-  background-color: chocolate;
+  background-color: rgba(228, 134, 67, 0.561);
 }
 
 @media (max-width: 549px){
