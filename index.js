@@ -4,7 +4,7 @@ import * as state from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
 
-const router = new Navigo(window.location.origin);
+const router = new Navigo("/");
 
 router
   .on({
@@ -20,11 +20,10 @@ router
 
 function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
-  ${Header()}
+  ${Header(st)}
   ${Nav()}
   ${Main(st)}
   ${Footer()}
   `;
+  router.updatePageLinks();
 }
-
-router.updatePageLinks();

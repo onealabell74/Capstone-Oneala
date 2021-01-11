@@ -41,7 +41,7 @@ header > h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:  rgb(233, 223, 177);
+  background-color: rgb(233, 223, 177);
 }
 
 #navbar li {
@@ -98,30 +98,31 @@ footer {
 }
 
 @media (max-width: 549px){
-    .hidden--mobile {
-      display: none !important;
-    }
-    nav {
+  .hidden--mobile {
+   display: none !important;
+ }
+
+ nav {
       display: flex;
       align-items: center;
       flex-direction: column;
     }
-    nav > i {
+   nav > i {
       padding: 1rem;
       font-size: 2em;
     }
-    nav > ul {
+   nav > ul {
       display: flex;
       align-items: center;
       flex-direction: column;
       padding: 0 0;
     }
-    nav > ul > li {
+  nav > ul > li {
       padding: .5rem;
       list-style-type: none;
     }
 
-    header h1 {
+  header h1 {
       font-size: 16px;
     }
 
