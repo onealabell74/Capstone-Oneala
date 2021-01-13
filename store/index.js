@@ -1,4 +1,3 @@
-export { default as About } from "./About";
 export { default as Avf } from "./Avf";
 export { default as Avg } from "./Avg";
 export { default as Centerandhome } from "./Centerandhome";

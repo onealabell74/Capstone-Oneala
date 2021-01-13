@@ -3,7 +3,7 @@ export default () => `
 <h>Subscribe to my Newsletter</h>
 
 
-<form id="myform" action="" method="POST">
+<form id="myform" action="https://formspree.io/f/myyblynn" method="POST">
 <label for="name">Name:</label>
 <input type="text" name="name" id="name" placeholder="Full Name">
 

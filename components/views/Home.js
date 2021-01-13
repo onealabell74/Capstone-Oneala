@@ -4,9 +4,9 @@ export default () => `
     </p>
 <p>
     There are many different types of dialysis treatments. You have to decide what
-    best for you. Take in factors such as your lifestyle. Because dialysis is like
+    best for you. Take in factors your lifestyle, Because dialysis is like
     having a part time job. Think of at such. I hope this will help you
-    decide what is best for you. Cause this is not a one size fits all.
+    decide what is best for you.
 </p>
 
 <img src="https://thumbs.dreamstime.com/b/superhero-doctor-nurse-medical-masks-hero-cape-staff-protective-suits-188518924.jpg">
