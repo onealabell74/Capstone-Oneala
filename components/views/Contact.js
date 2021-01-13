@@ -30,12 +30,12 @@ export default () => `
     </div>
     <div>
       <input type="radio" name="subject" value="other">
-      <label>Something else</label>
+      <label>Dialysis Cookbook</label>
     </div>
   </div>
 
 <input type="checkbox" name="optIn" value="trusting" id="news" checked>
-<label for="news">Subscribe to my newsletter!</label>
+<label for="news">Subscribe to my newsletter/Cookbook!</label>
 
 <div>
   <label for="marketing">How did you hear about me?</label>
