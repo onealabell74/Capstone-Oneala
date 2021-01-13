@@ -10,8 +10,8 @@ export default () => `
 <label for="email">Email:</label>
 <input type="email" name="email" id="email" placeholder="you@somewhere.com">
 
-<label for="fone">Phone:</label>
-<input type="tel" name="fone" id="fone">
+<label for="Phone">Phone:</label>
+<input type="tel" name="phone" id="phone">
 
 <div>
   <label for="msg">Enter your message:</label>
