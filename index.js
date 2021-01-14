@@ -17,7 +17,7 @@ router.hooks({
 
     axios
       .get(
-        "http://api.openweathermap.org/data/2.5/weather?q=st. louis,us&appid=7ab91a28fa72ea7d19c90469792c4526"
+        "https://api.openweathermap.org/data/2.5/weather?q=st. louis,us&appid=7ab91a28fa72ea7d19c90469792c4526"
       )
       .then(response => {
         const ourdata = response.data;
