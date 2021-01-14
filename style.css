@@ -99,23 +99,24 @@ footer {
 
 @media (max-width: 549px){
   .hidden--mobile {
-    display: none !important;
- }
+   display: none !important;
+  }
 
- nav {
+nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+  }
  nav > i {
        padding: 1rem;
       font-size: 2em;
     }
-   nav > ul {
+    nav > ul {
       display: flex;
       align-items: center;
       flex-direction: column;
       padding: 0 0;
+
     }
   nav > ul > li {
       padding: .5rem;

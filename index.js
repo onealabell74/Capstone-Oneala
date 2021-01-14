@@ -39,3 +39,9 @@ axios
     state.Home.weather.description = response.weather.main;
     console.log(response);
   });
+
+let city = ourdata.name;
+let temp = ourdata.main.temp;
+let description = ourdata.weather[o].description;
+
+console.log(city, temp, description);
