@@ -99,16 +99,16 @@ footer {
 
 @media (max-width: 549px){
   .hidden--mobile {
-   display: none !important;
+    display: none !important;
  }
 
  nav {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-   nav > i {
-      padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ nav > i {
+       padding: 1rem;
       font-size: 2em;
     }
    nav > ul {
@@ -126,6 +126,9 @@ footer {
       font-size: 16px;
     }
 
+    img #superhero {
+      max-width: 560px;
+    }
 }
 
 @media (min-width: 550px){

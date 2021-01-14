@@ -1,4 +1,9 @@
 export default {
-  header: "Dialysis is not the End",
-  page: "Home"
+  header: "Dialysis 101",
+  page: "Home",
+  weather: {
+    city: "city",
+    temp: "temperature",
+    description: "description"
+  }
 };
